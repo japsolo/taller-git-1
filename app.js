@@ -16,3 +16,7 @@ const getTime = () => {
   const date = new Date();
   return date.toLocaleDateString();
 }
+
+const userName = env.USER_NAME;
+const userLastName = env.USER_LAST_NAME;
+const userToken = env.USER_TOKEN;
