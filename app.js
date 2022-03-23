@@ -5,3 +5,8 @@ function sayHello () {
 }
 
 console.log( sayHello() );
+
+const getTime = () => {
+  const date = new Date();
+  return date.toLocaleDateString();
+}
