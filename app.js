@@ -11,3 +11,8 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
 for (const month of months) {
   console.log(month);
 }
+
+const getTime = () => {
+  const date = new Date();
+  return date.toLocaleDateString();
+}
