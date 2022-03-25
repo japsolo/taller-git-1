@@ -1,7 +1,7 @@
 console.log("El otro Javi. El de avatar negro");
 
 function sayHello () {
-  return "Hello world!";
+  return "Hello world, how is it going?!";
 }
 
 console.log( sayHello() );
